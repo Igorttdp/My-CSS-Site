@@ -1,0 +1,225 @@
+/*******************************************************************Elements********************************************************************************************************/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 50px auto 5px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #1572A1;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin: auto 30% auto 30%;
+    color: #1572A1;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+hr {
+    border: dotted #EAF6F6;
+    border-width: 0px 0px 7px;
+    width: 60px;
+}
+
+p {
+    line-height: 2;
+}
+
+
+/*******************************************************************Classes*********************************************************************************************************/
+
+
+/*******************************************************TOP CONTEINER********************************************************************************************************/
+
+.top-container {
+    background-color: #9AD0EC;
+    position: relative;
+    padding-top: 100px;
+    width: 1903px;
+    height: 607px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.mountain {
+    position: absolute;
+    right: 34%;
+    bottom: 0px;
+}
+
+
+/*******************************************************TOP CONTEINER END******************************************************************************************************/
+
+
+/*******************************************************MIDDLE CONTEINER*******************************************************************************************************/
+
+.content {
+    /*width: 250px;
+          height: 250px;*/
+    width: 25%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 120px auto;
+    text-align: left;
+}
+
+.short-text {
+    display: inline-block;
+    inline-size: 29.5rem;
+}
+
+.text-size-left {
+    margin-right: 110px;
+}
+
+.text-size-right {
+    margin-right: 300px;
+}
+
+.text-color {
+    color: #404C51;
+}
+
+
+/*******************************************************MIDDLE CONTEINER END***************************************************************************************************/
+
+
+/*******************************************************BOTTOM CONTEINER********************************************************************************************************/
+
+.btn {
+    background: #1572A1;
+    background-image: -webkit-linear-gradient(top, #1572A1, #2980b9);
+    background-image: -moz-linear-gradient(top, #1572A1, #2980b9);
+    background-image: -ms-linear-gradient(top, #1572A1, #2980b9);
+    background-image: -o-linear-gradient(top, #1572A1, #2980b9);
+    background-image: linear-gradient(to bottom, #1572A1, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.bottom-container {
+    margin-top: 70px;
+    padding: 50px 0 20px;
+    background-color: #66BFBF;
+}
+
+.footer-link {
+    display: inline-block;
+    margin: auto 85px 15px 85px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+
+.footer-link:hover {
+    font-size: 16.3px;
+}
+
+.instagram:hover {
+    background-color: #11999E;
+    background-image: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.twitter:hover {
+    background-color: #11999E;
+    background-image: linear-gradient(55deg, #6998B7, #00ACEE, #36D8FF, #36EAFF, #29b5bd);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.website:hover {
+    background-color: #11999E;
+    background-image: linear-gradient(45deg, #ffb81f, #ffab2d, #ff9c2b, #ff9c40);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*******************************************************BOTTOM CONTEINER********************************************************************************************************/
+
+
+/*******************************************************************Id's************************************************************************************************************/
+
+#pro {
+    text-decoration: underline;
+}
+
+#Igor {
+    width: 250px;
+    margin-top: 70px;
+}
+
+#h2-border {
+    border: solid 5px;
+}
+
+#skills {
+    float: left;
+    margin-right: 30px;
+}
+
+#pc {
+    float: right;
+    margin-left: 30px;
+}   
+
+#world {
+    margin: auto 5px auto 5px;
+}
